@@ -1,1 +1,84 @@
 /* your code here */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+.apples-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.apple-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.apple-card img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.apple-card h2 {
+  margin: 10px 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.varieties {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.benefits {
+  margin-top: 20px;
+}
+
+.benefits h3 {
+  margin: 0;
+}
+
+.benefits ul {
+  padding: 0;
+  list-style-type: disc;
+  margin-top: 10px;
+}
+
+.add-to-cart {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.add-to-cart:hover {
+  background-color: #45a049;
+}
+
